@@ -6,3 +6,9 @@ __pycache__/
 # Distribution / packaging
 .eggs/
 
+# Pycharm
+.idea/
+
+# JavaScript
+.DS_Store
+
