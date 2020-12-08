@@ -41,5 +41,5 @@ def day2(new_policy):
 
 
 def main_day2():
-    print(f"day 2 {day2(False)}")
-    print(f"day 2 {day2(True)}")
+    print(f"day 2a {day2(False)}")
+    print(f"day 2b {day2(True)}")

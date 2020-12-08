@@ -31,5 +31,5 @@ def day1b():
 
 
 def main_day1():
-    print(f"day 1 a {day1a()}")
-    print(f"day 1 b {day1b()}")
+    print(f"day 1a {day1a()}")
+    print(f"day 1b {day1b()}")
