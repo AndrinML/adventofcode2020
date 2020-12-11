@@ -21,4 +21,14 @@ for (const line of lines){
     seats.push(s);
 }
 
-console.log(Math.max(...seats.map(s => s.id)));
+//console.log(Math.max(...seats.map(s => s.id)));
+
+const mySeatID = [...seats.map(s => s.id).sort((a,b)=>a-b).filter((element,index, array) => {
+    let returnElement = 0;  
+    if(array[index+1] - array[index] > 1){
+        returnElement = element;
+    }
+    return Number(returnElement);
+})];
+
+console.log(mySeatID.map(x => parseInt(x)+1));
